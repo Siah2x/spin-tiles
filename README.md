@@ -28,7 +28,7 @@ Locks the player into their current movement direction while sliding across conn
 
 ## Getting The Blocks
 
-The blocks are available in the Cobblemon Spin Tiles creative tab. They do not currently have crafting recipes.
+The blocks are available in the Cobblemon Spin Tiles creative tab and have simple recipies available.
 
 ```mcfunction
 /give @s cobblemon_spin_tiles:spin_tile
