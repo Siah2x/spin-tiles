@@ -1,0 +1,22 @@
+COBBLEMON SPIN TILES LICENSE
+
+Copyright (c) 2026 SiahSneaka. All rights reserved.
+
+You may:
+
+- use this mod on Minecraft clients and servers;
+- include the unmodified mod in a modpack if you credit SiahSneaka; and
+- make private edits for your own use.
+
+Please do not:
+
+- reupload the mod as a separate download;
+- share modified versions without permission;
+- sell the mod or its assets; or
+- claim the mod or its assets as your own work.
+
+Third-party material is not covered by this license. See
+THIRD_PARTY_NOTICES.txt for details.
+
+This mod is provided as-is, without a warranty. SiahSneaka is not responsible
+for damage or problems caused by using it.

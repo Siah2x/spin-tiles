@@ -1,0 +1,10 @@
+{
+  "spin": {
+    "sounds": [
+      {
+        "name": "cobblemon_spin_tiles:spin",
+        "stream": false
+      }
+    ]
+  }
+}

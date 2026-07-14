@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "cobblemon_spin_tiles:block/ice_tile"
+  }
+}

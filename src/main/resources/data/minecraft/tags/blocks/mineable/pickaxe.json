@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "cobblemon_spin_tiles:spin_tile",
+    "cobblemon_spin_tiles:spin_stop_tile",
+    "cobblemon_spin_tiles:ice_tile"
+  ]
+}

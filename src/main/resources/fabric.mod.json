@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemon_spin_tiles",
+  "version": "${version}",
+  "name": "Cobblemon Spin Tiles",
+  "description": "Pokemon-style directional spin tiles and frictionless ice puzzles for Fabric.",
+  "authors": [
+    "SiahSneaka"
+  ],
+  "contact": {},
+  "license": "LicenseRef-Cobblemon-Spin-Tiles-1.0",
+  "icon": "assets/cobblemon_spin_tiles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.siah.spintiles.CobblemonSpinTiles"
+    ],
+    "client": [
+      "dev.siah.spintiles.client.CobblemonSpinTilesClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "cobblemon_spin_tiles.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "1.21.1",
+    "fabric-api": "*"
+  }
+}

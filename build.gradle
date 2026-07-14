@@ -1,0 +1,66 @@
+plugins {
+    id "fabric-loom" version "1.10-SNAPSHOT"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        cobblemon_spin_tiles {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    testImplementation platform("org.junit:junit-bom:5.10.3")
+    testImplementation "org.junit.jupiter:junit-jupiter"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") {
+        expand "version": project.version
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+}
+
+java {
+    withSourcesJar()
+}
+
+tasks.named("sourcesJar") {
+    exclude "fabric.mod.json"
+    from("LICENSE.txt") {
+        rename { "LICENSE_CobblemonSpinTiles.txt" }
+    }
+    from("THIRD_PARTY_NOTICES.txt")
+}
+
+tasks.named("jar") {
+    from("LICENSE.txt") {
+        rename { "LICENSE_CobblemonSpinTiles.txt" }
+    }
+    from("THIRD_PARTY_NOTICES.txt")
+}
+
+test {
+    useJUnitPlatform()
+}

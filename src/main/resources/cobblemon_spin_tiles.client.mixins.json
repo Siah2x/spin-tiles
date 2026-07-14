@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.siah.spintiles.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "client-CobblemonSpinTiles-refmap.json",
+  "client": [
+    "KeyboardInputMixin",
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

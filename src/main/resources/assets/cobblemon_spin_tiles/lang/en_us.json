@@ -1,0 +1,10 @@
+{
+  "block.cobblemon_spin_tiles.spin_tile": "Spin Tile",
+  "block.cobblemon_spin_tiles.spin_stop_tile": "Spin Stop Tile",
+  "block.cobblemon_spin_tiles.ice_tile": "Ice Tile",
+  "itemGroup.cobblemon_spin_tiles": "Cobblemon Spin Tiles",
+  "gamerule.spinTilesInfiniteRange": "Infinite Spin Tile Range",
+  "gamerule.spinTilesInfiniteRange.description": "Allows spin tiles to connect beyond 50 blocks.",
+  "gamerule.spinTilesUnlimitedCombo": "Unlimited Spin Tile Combo",
+  "gamerule.spinTilesUnlimitedCombo.description": "Removes the 50-tile spin combo limit."
+}

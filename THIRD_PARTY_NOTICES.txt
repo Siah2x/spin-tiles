@@ -1,0 +1,22 @@
+COBBLEMON SPIN TILES - THIRD-PARTY NOTICES
+
+Cobblemon Spin Tiles is an unofficial fan-made Minecraft mod. It is not
+affiliated with, sponsored by, or endorsed by Microsoft, Mojang Studios,
+Nintendo, The Pokemon Company, Game Freak, Creatures Inc., or the Cobblemon
+project.
+
+Minecraft and related marks are property of Microsoft and/or Mojang Studios.
+Pokemon and related marks and game assets are property of their respective
+owners, including Nintendo, The Pokemon Company, Game Freak, and Creatures Inc.
+Cobblemon and its associated marks and software belong to their respective
+owners and contributors.
+
+The current release contains visual and audio material derived from or based
+on Pokemon FireRed/LeafGreen references, including directional tile artwork,
+the Icefall Cave-style ice texture, and the spin sound. These third-party
+materials are not licensed under the Cobblemon Spin Tiles License, and no
+ownership of them is claimed by SiahSneaka.
+
+For public distribution, replace any third-party-derived artwork and audio
+with original material or obtain explicit permission from the relevant
+rights holders.

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "cobblemon_spin_tiles:block/spin_tile_north"
+    },
+    "facing=east": {
+      "model": "cobblemon_spin_tiles:block/spin_tile_east"
+    },
+    "facing=south": {
+      "model": "cobblemon_spin_tiles:block/spin_tile_south"
+    },
+    "facing=west": {
+      "model": "cobblemon_spin_tiles:block/spin_tile_west"
+    }
+  }
+}

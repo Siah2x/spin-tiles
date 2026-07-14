@@ -1,0 +1,7 @@
+{
+  "parent": "cobblemon_spin_tiles:block/template_spin_tile",
+  "textures": {
+    "top": "cobblemon_spin_tiles:block/spin_up",
+    "side": "cobblemon_spin_tiles:block/spin_side"
+  }
+}
